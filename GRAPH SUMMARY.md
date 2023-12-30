@@ -34,11 +34,15 @@ This box plot provides valuable insights into the relationship between alcohol c
 
 ## Grouping Summary
 
-## Assuming quality_means is the result of dataset.groupby('quality').mean()
+### Assuming quality_means is the result of dataset.groupby('quality').mean()
 
 ## Displaying the Mean Values Grouped by Quality
 
-The quality_means DataFrame provides a comprehensive overview of the mean values for each numeric column, grouped by the 'quality' attribute. This summary sheds light on the average characteristics of wines across different quality levels.
+The quality_means DataFrame provides a comprehensive overview of the mean values for each numeric column, grouped by the 'quality' attribute. This summary sheds light on the average characteristics of wines across different quality levels. For instance,
+  fixed acidity  volatile acidity  citric acid  residual sugar  \
+quality                                                                 
+3.0           8.360000          0.884500     0.171000        2.635000   
+4.0           7.779245          0.693962     0.174151        2.694340   
 
 ## Key Observations:
 
